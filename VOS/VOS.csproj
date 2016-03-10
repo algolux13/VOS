@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AidForm.Designer.cs">
+      <DependentUpon>AidForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContribForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContribForm.Designer.cs">
+      <DependentUpon>ContribForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyMemberForm.Designer.cs">
+      <DependentUpon>FamilyMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HonorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HonorsForm.Designer.cs">
+      <DependentUpon>HonorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPRForm.Designer.cs">
+      <DependentUpon>IPRForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +90,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShVTSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShVTSForm.Designer.cs">
+      <DependentUpon>ShVTSForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AidForm.resx">
+      <DependentUpon>AidForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContribForm.resx">
+      <DependentUpon>ContribForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyMemberForm.resx">
+      <DependentUpon>FamilyMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HonorsForm.resx">
+      <DependentUpon>HonorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPRForm.resx">
+      <DependentUpon>IPRForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +126,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ShVTSForm.resx">
+      <DependentUpon>ShVTSForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

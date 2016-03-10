@@ -21,6 +21,7 @@ namespace VOS
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             if (memberForm == null || memberForm.IsDisposed)
             {
                 memberForm = new MemberForm();
