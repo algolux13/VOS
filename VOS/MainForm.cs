@@ -18,10 +18,10 @@ namespace VOS
         }
 
         MemberForm memberForm;
+        EventsForm eventForm;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             if (memberForm == null || memberForm.IsDisposed)
             {
                 memberForm = new MemberForm();
@@ -30,6 +30,19 @@ namespace VOS
             else
             {
                 memberForm.Activate();
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (eventForm == null || eventForm.IsDisposed)
+            {
+                eventForm = new EventsForm();
+                eventForm.Show();
+            }
+            else
+            {
+                eventForm.Activate();
             }
         }
     }
